@@ -32,7 +32,10 @@ function ImageSection() {
                         <p>: Bangladesh</p>
                     </div>
                 </div>
-                <button className="btn">Download Cv</button>
+
+                <a href="https://drive.google.com/file/d/19l5J-wuh7nL4w-m3N_QDbPVtCiWYITx4/view?usp=drivesdk"
+                            className="resume-button"> Download
+                                CV</a>
             </div>
         </div>
     )

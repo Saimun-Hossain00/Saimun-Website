@@ -21,20 +21,20 @@ function HomePage() {
                     A sint ipsam earum nemo omnis et.
                 </p>
                 <div className="icons">
-                    <Link to="test" className="icon-holder">
+                    <a href="https://www.facebook.com/saimun.sannyat" className="icon-holder">
                         <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-                    </Link>
-                    <Link to="test" className="icon-holder">
+                    </a>
+                    <a href="https://github.com/Saimun-Hossain00" className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />
                         
-                    </Link>
-                    <Link to="test" className="icon-holder">
+                    </a>
+                    <a href="https://www.linkedin.com/in/saimun-hossain-a55188211" className="icon-holder">
                         <FontAwesomeIcon icon={faLinkedin} className="icon yt"/>
-                    </Link>
+                    </a>
 
-                    <Link to="test" className="icon-holder">
+                    <a href="https://medium.com/@saimunhossaiemon" className="icon-holder">
                         <FontAwesomeIcon icon={faMedium} className="icon yt"/>
-                    </Link>
+                    </a>
                 </div>
             </header>
         </div>

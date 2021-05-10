@@ -41,6 +41,43 @@
     }
 }
 
+.resume-button {
+    display: block;
+    width: 160px;
+    height: 45px;
+    line-height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #0000FF;
+    border: 2px solid rgb(250, 239, 239);
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all 0.35s;
+  }
+  .resume-button span {
+    position: relative;
+    z-index: 2;
+  }
+  .resume-button:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #FAE8E0;
+    transition: all 0.35s;
+  }
+  .resume-button:hover {
+    color: rgb(3, 3, 3);
+  }
+  .resume-button:hover:after {
+    width: 100%;
+  }
+
 .btn{
     padding: 1rem 2rem;
     background-color: #037FFF;
@@ -82,7 +119,7 @@
 
 .btn-port{
     padding: .6rem 2rem;
-    background-color: #0381ff5b;
+    background-color: #4120A9;
     border: none;
     outline: none;
     cursor: pointer;

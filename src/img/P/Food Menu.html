@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://saimun-hossain00.github.io/Food-Menu-Assignment/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Food Menu_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Food Menu_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./Food Menu_files/style.css">
+    <title>Food Menu</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="input-group mt-5">
+            <input style="font-family: FontAwesome;" type="text" class="form-control" placeholder=" Search For Meal..." id="meal">
+            <button class="btn btn-success" type="button" id="search">Search</button>
+        </div>
+        <div>
+            <h1 class="display-1 text-center text-danger mt-5" id="alert"></h1>
+        </div>
+        <div class="container text-center mt-5" id="menuFoodDetail"></div>
+        <div id="menuList"><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Corba&#39;)">
+                    <img src="./Food Menu_files/58oia61564916529.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Corba</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Kumpir&#39;)">
+                    <img src="./Food Menu_files/mlchx21564916997.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Kumpir</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Dal fry&#39;)">
+                    <img src="./Food Menu_files/wuxrtu1483564410.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dal fry</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Koshari&#39;)">
+                    <img src="./Food Menu_files/4er7mj1598733193.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Koshari</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Kedgeree&#39;)">
+                    <img src="./Food Menu_files/utxqpt1511639216.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Kedgeree</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Shawarma&#39;)">
+                    <img src="./Food Menu_files/kcv6hj1598733479.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Shawarma</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Ribollita&#39;)">
+                    <img src="./Food Menu_files/xrrwpx1487347049.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ribollita</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Tourtiere&#39;)">
+                    <img src="./Food Menu_files/ytpstt1511814614.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tourtiere</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Sugar Pie&#39;)">
+                    <img src="./Food Menu_files/yrstur1511816601.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sugar Pie</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Roti john&#39;)">
+                    <img src="./Food Menu_files/hx335q1619789561.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Roti john</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Irish stew&#39;)">
+                    <img src="./Food Menu_files/sxxpst1468569714.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Irish stew</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Rock Cakes&#39;)">
+                    <img src="./Food Menu_files/tqrrsq1511723764.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Rock Cakes</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Rappie Pie&#39;)">
+                    <img src="./Food Menu_files/ruwpww1511817242.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Rappie Pie</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Carrot Cake&#39;)">
+                    <img src="./Food Menu_files/vrspxv1511722107.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Carrot Cake</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Parkin Cake&#39;)">
+                    <img src="./Food Menu_files/qxuqtt1511724269.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Parkin Cake</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Ratatouille&#39;)">
+                    <img src="./Food Menu_files/wrpwuu1511786491.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ratatouille</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Tarte Tatin&#39;)">
+                    <img src="./Food Menu_files/ryspuw1511786688.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tarte Tatin</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;BeaverTails&#39;)">
+                    <img src="./Food Menu_files/ryppsv1511815505.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">BeaverTails</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Ayam Percik&#39;)">
+                    <img src="./Food Menu_files/020z181619788503.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ayam Percik</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Lamb Biryani&#39;)">
+                    <img src="./Food Menu_files/xrttsx1487339558.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Lamb Biryani</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Clam chowder&#39;)">
+                    <img src="./Food Menu_files/rvtvuw1511190488.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Clam chowder</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Matar Paneer&#39;)">
+                    <img src="./Food Menu_files/xxpqsy1511452222.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Matar Paneer</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Treacle Tart&#39;)">
+                    <img src="./Food Menu_files/wprvrw1511641295.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Treacle Tart</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Madeira Cake&#39;)">
+                    <img src="./Food Menu_files/urtqut1511723591.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Madeira Cake</h5>
+                    </div>
+                    </div>
+                </div><div class="foods mt-5">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail(&#39;Nanaimo Bars&#39;)">
+                    <img src="./Food Menu_files/vwuprt1511813703.jpg" class="card-img-top img-thumbnail" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Nanaimo Bars</h5>
+                    </div>
+                    </div>
+                </div></div>
+    </main>
+
+    
+
+    <script src="./Food Menu_files/bootstrap.bundle.min.js.download" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./Food Menu_files/app.js.download"></script>
+
+
+</body></html>

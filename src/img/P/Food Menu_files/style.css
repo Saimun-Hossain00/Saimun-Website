@@ -1,0 +1,21 @@
+body {
+  background: #ccf2f4;
+}
+#menuList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 20px;
+}
+
+#menuFoodDetail img {
+  border-radius: 1rem;
+}
+.list-group {
+  width: 500px;
+  margin: auto;
+  color: #350b40;
+}
+#alert {
+  font-size: 40px;
+  font-family: sans-serif;
+}
