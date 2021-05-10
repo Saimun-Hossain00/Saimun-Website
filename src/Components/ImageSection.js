@@ -10,9 +10,7 @@ function ImageSection() {
             <div className="about-info">
                 <h4>I am<span> Saimun Hossain </span></h4>
                 <p className="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptatum necessitatibus perferendis numquam dolorem cumque facilis.
-                    Desir per po la ta doso vi slone ve?
+                I am Saimun Hossain Emon. I am working on web-development now. Web developer This is a dream of mine. By the grace of God, I have been able to come a long way with web development. There are thoughts of doing something good with this
                 </p>
                 <div className="about-details">
                     <div className="left-section">

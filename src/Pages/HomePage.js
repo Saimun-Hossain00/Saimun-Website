@@ -15,10 +15,7 @@ function HomePage() {
                     <span> Saimun Hossain.</span>
                 </h1>
                 <p className="h-sub-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Cupiditate facere, numquam vitae placeat consequatur corrupti officia 
-                    quibusdam. Blanditiis doloremque nemo ex facilis neque. 
-                    A sint ipsam earum nemo omnis et.
+                I am Saimun Hossain Emon. I am working on web-development now. Web developer This is a dream of mine. By the grace of God, I have been able to come a long way with web development. There are thoughts of doing something good with this
                 </p>
                 <div className="icons">
                     <a href="https://www.facebook.com/saimun.sannyat" className="icon-holder">

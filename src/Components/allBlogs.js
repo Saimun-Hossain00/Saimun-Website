@@ -8,8 +8,8 @@ const blogs = [
     {
         id: 1,
         image: blog1,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
+        title: 'Javascript Core Concep',
+        link: 'https://saimunhossaiemon.medium.com/mdn-javascript-string-d085a0bf4d2',
         date : '21',
         month: 'Mar',
         year: '2020'
@@ -17,8 +17,8 @@ const blogs = [
     {
         id: 2,
         image: blog2,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
+        title: 'Always-used-in-primitive-type-data',
+        link: 'https://saimunhossaiemon.medium.com/always-used-in-primitive-type-data-76ddb8f41da7',
         date : '09',
         month: 'Dec',
         year: '2019'
@@ -26,8 +26,8 @@ const blogs = [
     {
         id: 3,
         image: blog3,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
+        title: 'React-core',
+        link: 'https://saimunhossaiemon.medium.com/in-react-virtual-dom-exists-which-is-like-a-lightweight-copy-of-the-actual-dom-3e9bf9da36a9',
         date : '15',
         month: 'Jun',
         year: '2018'
@@ -35,8 +35,8 @@ const blogs = [
     {
         id: 4,
         image: blog4,
-        title: 'UI/UX Design Starter with Figma',
-        link: 'https://www.facebook.com/',
+        title: 'Javascript-Advance',
+        link: 'https://saimunhossaiemon.medium.com/if-any-number-is-a-value-but-if-it-is-a-number-other-than-0-then-the-tour-will-be-held-and-if-it-is-c2c41749d144',
         date : '04',
         month: 'Aug',
         year: '2020'
