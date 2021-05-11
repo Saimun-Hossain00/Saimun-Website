@@ -40,7 +40,7 @@ function Navbar() {
 
                 <footer className="footer">
                     <p>
-                        @2021 Saimun
+                        @2021 saimun
                     </p>
             </footer>
             </nav>

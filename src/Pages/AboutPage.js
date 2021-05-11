@@ -20,7 +20,7 @@ function AboutPage() {
                 <SkillsSection skill={'Node Js'} progress={'50%'} width={'50%'} />
                 <SkillsSection skill={'Python'} progress={'30%'} width={'30%'} />
                 <SkillsSection skill={'Lua'} progress={'20%'} width={'20%'} />
-                <SkillsSection skill={'Java'} progress={'60%'} width={'60%'} />
+                <SkillsSection skill={'Java'} progress={'50%'} width={'50%'} />
                 <SkillsSection skill={'Web Design'} progress={'25%'} width={'25%'} />
               
             </div>
